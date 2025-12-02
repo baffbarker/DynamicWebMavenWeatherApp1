@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -42,15 +43,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/jeremy/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar" sourcepath="/home/jeremy/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="javadoc_location" value="jar:file:/home/jeremy/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2-javadoc.jar!/"/>
-			<attribute name="maven.groupId" value="com.google.code.gson"/>
-			<attribute name="maven.artifactId" value="gson"/>
-			<attribute name="maven.version" value="2.13.2"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="/home/jeremy/eclipse-workspace/DynamicWebMavenWeatherApp1/src/main/resources/gson-2.13.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
