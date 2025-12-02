@@ -7,6 +7,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+
+
+
+
+
+
+
+
+
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -23,6 +33,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
+	
 	<build>
 
 		<plugins>
@@ -40,4 +52,28 @@
 		</plugins>
 
 	</build>
+	
+	<profiles>
+        <profile>
+            <id>production</id>
+            <properties>
+                <environment>prod</environment>
+                <skipTests>true</skipTests>
+            </properties>
+            
+        </profile>
+        
+        <profile>
+            <id>development</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <environment>dev</environment>
+            </properties>
+        </profile>
+    </profiles>
+	
+	
+	
 </project>
