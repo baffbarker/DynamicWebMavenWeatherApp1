@@ -31,7 +31,8 @@ public class WeatherBean {
         fetchWeatherData();
     }
     
-    public void fetchWeatherData() {
+    @SuppressWarnings("deprecation")
+	public void fetchWeatherData() {
         if (city == null || city.trim().isEmpty()) {
             this.errorMessage = "City name cannot be empty";
             return;
